@@ -12,7 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      width: {
+        "1/7": "14.2857%",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 } satisfies Config;
